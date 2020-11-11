@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: pigPet
+    types: 金融养猪
 jobs:
   build:
 
