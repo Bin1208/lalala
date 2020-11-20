@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: speed
+    types: necklace
 jobs:
   build:
 
