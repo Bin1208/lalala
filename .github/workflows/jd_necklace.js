@@ -1,12 +1,12 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 京东天天点点券
+name: 京东点点券
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4,16,20 * * *'
+    - cron: '10 4,16 * * *'
   watch:
     types: started
   repository_dispatch:
